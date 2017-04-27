@@ -1,13 +1,17 @@
-1) The folder "Codes" contains the code that we have run. It also has the PCAs of the data. We haven't included the data itself to protect the privacy of the data donors.
+1) dataClean.py
+Cleans the JSON files by removing the non-ASCII characters
 
-2) The file "Report_Final_Group_9.pdf" is the report of the project. It has the description of the models that we have implemented and their results.
+2) jsonToCSV.py
+Converts the cleaned JSON files to CSV Format
 
-3). References for the Project:-
+3) userGoal.py
+Takes user input for goal and suggests path based on Frequency Method
 
--> http://bamos.github.io/2016/08/09/deep-completion/
+4) userGoal2.py
+Takes user input for goal and suggests path based on Jaccadr Indices Method
 
--> https://arxiv.org/abs/1406.2661 : GAN Paper by I.Goodfellow et. al.
+3) readUser.py
+Selects profession and User and suggests path based on Frequency Method
 
--> http://cs231n.github.io/convolutional-networks/
-
--> http://www.di.ens.fr/~fbach/courses/fall2010/Bishop_Tipping_1999_Probabilistic_PCA.pdf : PPCA Paper by C. Bishop et. al.
+4) readUser2.py
+Selects profession and User and suggests path based on Jaccadr Indices Method
